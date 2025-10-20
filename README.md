@@ -50,14 +50,14 @@
 
 - **Trong MSYS2 UCRT64:**
   ```bash
-  cd /c/Projects/RC4
+  cd /path/to/your/project
   g++ -std=c++17 -O2 -Iinclude encrypt/main.cpp -o encrypt.exe
   g++ -std=c++17 -O2 -Iinclude decrypt/main.cpp -o decrypt.exe
   ```
 
 - **Trong PowerShell (WinLibs):**
   ```powershell
-  cd C:\Projects\RC4
+  cd <path>\to\your\project
   g++ -std=c++17 -O2 -Iinclude encrypt\main.cpp -o encrypt.exe
   g++ -std=c++17 -O2 -Iinclude decrypt\main.cpp -o decrypt.exe
   ```
