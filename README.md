@@ -121,34 +121,6 @@ Chạy kiểm tra:
 ./decrypt.exe "Wiki" "1021BF0420"   # -> pedia
 ```
 
-### TV4 – Wikipedia
-- **Key**: `Secret`  
-- **Plaintext**: `Attack at dawn`  
-- **Cipher (hex)**: `45A01F645FC35B383552544B9BF5`
-
-```bash
-./encrypt.exe "Secret" "Attack at dawn"           # -> 45A01F645FC35B383552544B9BF5
-./decrypt.exe "Secret" "45A01F645FC35B383552544B9BF5"  # -> Attack at dawn
-```
-
----
-
-## Mẹo tự kiểm tra nhanh
-
-- **Trong MSYS2 (bash):**
-  ```bash
-  HEX=$(./encrypt.exe)                  # dùng key & plaintext mặc định
-  ./decrypt.exe "HUST-2025" "$HEX"      # -> in ra plaintext ban đầu
-  ```
-
-- **Trong PowerShell:**
-  ```powershell
-  $hex = ./encrypt.exe
-  ./decrypt.exe "HUST-2025" $hex
-  ```
-
----
-
 ## Khắc phục sự cố
 - `g++: command not found` → Cài MSYS2 toolchain hoặc WinLibs và kiểm tra PATH.  
 - `No such file or directory` khi biên dịch → kiểm tra lại **đường dẫn** `-Iinclude` và có đủ file trong `include/rc4/`.  
