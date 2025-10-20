@@ -1,4 +1,4 @@
-# RC4 – Mã hoá/Giải mã (C++ header-only, build bằng g++)
+# RC4 – Mã hoá/Giải mã bằng C++
 
 **Cảnh báo bảo mật**: RC4 đã lỗi thời và **không an toàn** cho hệ thống thực tế. Repo này phục vụ mục đích học thuật.
 
