@@ -1,0 +1,24 @@
+# Build artifacts / CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake-install.cmake
+Makefile
+*.ninja
+*.sln
+*.vcxproj*
+# MSVC & Windows artifacts
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+# GCC/MinGW
+*.o
+*.a
+# Binaries
+*.exe
+# IDE
+.vs/
+*.user
